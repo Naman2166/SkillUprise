@@ -10,7 +10,7 @@ const HomeHeader = () => {
     >
 
       {/* -------------- Left Side  -------------- */}
-      <div className='md:w-1/2 flex flex-col items-center sm:items-start justify-center gap-4 py-10 md:py-[7vw]'>
+      <div className='md:w-1/2 flex flex-col items-center sm:items-start justify-center gap-4 py-8 sm:py-10 md:py-[7vw]'>
 
         <p className='mx-auto md:mx-0 text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-white font-semibold leading-tight text-center md:text-left'>
           Learn, Intern & Get a Job
@@ -49,7 +49,7 @@ const HomeHeader = () => {
       </div>
 
       {/* -------------- Right Side  -------------- */}
-      <div className='md:w-1/2 flex justify-center items-center mt-3 md:mt-0'>
+      <div className='md:w-1/2 flex justify-center items-center mt-3 max-sm:mt-0 max-sm:pb-5 md:mt-0'>
         <img
           className='w-[90%] sm:w-4/5 md:w-full xl:w-[70%] h-auto rounded-lg'
           src={assets.HomeHeaderImage}
