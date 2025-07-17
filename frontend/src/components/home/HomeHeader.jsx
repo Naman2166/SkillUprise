@@ -5,7 +5,7 @@ import { FaSearch, FaArrowRight } from "react-icons/fa";
 const HomeHeader = () => {
   return (
     <div
-      className='flex flex-col md:flex-row bg-cover bg-center px-4 sm:px-6 md:px-10 lg:px-20 min-h-[560px]'
+      className='flex flex-col md:flex-row bg-cover bg-center px-4 sm:px-6 md:px-10 lg:px-20 min-h-[580px]'
       style={{ backgroundImage: `url(${assets.HomeHeaderBgImage})` }}
     >
 
