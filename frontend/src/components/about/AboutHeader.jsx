@@ -27,7 +27,7 @@ const AboutHeader = () => {
 
             {/* -------------- Right Side  -------------- */}
             <div className='w-full flex justify-center items-center'>
-                <img className='w-[65%] h-auto rounded-lg' src={assets.AboutHeader} alt='' />
+                <img className='w-[45%] h-auto rounded-lg' src={assets.AboutHeader} alt='' />
             </div>
 
 

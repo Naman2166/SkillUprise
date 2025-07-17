@@ -97,7 +97,7 @@ const Navbar = () => {
             </div>
 
             {/* -------- Lower bar (desktop) -------- */}
-            <nav className="hidden lg:flex w-full items-center justify-center gap-5 bg-gray-900 px-2 py-3 text-[13px] font-medium text-gray-400 ">
+            <nav className="hidden lg:flex w-full items-center justify-center gap-3 bg-gray-900 px-2 py-3 text-[13px] font-medium text-gray-400 ">
                 {lowerBarLinks.map(({ to, text }) => (
                     <NavLink
                         key={text}
