@@ -114,11 +114,11 @@ const ResourcesGrid = () => {
     <div className='mt-[3rem] sm:mt-[5rem] w-full flex flex-col justify-center items-center gap-y-12'>
 
   {/* Card Grid */}
-  <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-3 gap-6 px-4 sm:px-6 md:px-10">
+  <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-3 gap-6 sm:gap-10 px-4 sm:px-6 md:px-10">
     {Cards.map((item, idx) => (
       <div
         key={idx}
-        className="w-full max-w-[20rem] sm:max-w-[22rem] h-auto text-xs bg-gray-100 flex flex-col justify-between gap-1 sm:gap-3 overflow-hidden rounded-md shadow-lg shadow-gray-400"
+        className="w-full max-w-[20rem] sm:max-w-[26rem] h-auto text-xs bg-gray-100 flex flex-col justify-between gap-1 sm:gap-3 overflow-hidden rounded-md shadow-lg shadow-gray-400"
       >
 
         {/* upper part */}
@@ -126,7 +126,7 @@ const ResourcesGrid = () => {
           <img
             src={item.image}
             alt={"image"}
-            className="object-cover w-full h-24 sm:h-48 transition-transform duration-300 hover:scale-105"
+            className="object-cover w-full h-24 sm:h-52 transition-transform duration-300 hover:scale-105"
           />
         </div>
 

@@ -28,7 +28,7 @@ const CoursesFeatures = () => {
       </div>
 
       {/* Card Grid: 2 Columns even on mobile */}
-      <div className="grid grid-cols-2 gap-4 sm:gap-6 md:gap-8">
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6 md:gap-8">
         {Cards.map((item, idx) => (
           <div
             key={idx}
