@@ -152,7 +152,8 @@ const Navbar = () => {
                                 ×
                             </button>
                         </div>
-
+                         
+                         {/* upper navbar links */}
                         <ul className="mt-5 flex flex-col items-start gap-1.5 px-4 text-base sm:text-lg font-medium">
                             {navItems.map(({ to, label }) => (
                                 <NavLink
@@ -170,6 +171,30 @@ const Navbar = () => {
                                 </NavLink>
                             ))}
                         </ul>
+
+
+                         <hr className='mx-3 my-5 text-gray-600' />
+                          
+                         {/* lower navbar links   */}
+                         <ul className="mt-5 flex flex-col items-start gap-0.5 px-4 text-sm font-normal">
+                            {lowerBarLinks.map(({ to, text }) => (
+                                <NavLink
+                                    key={to}
+                                    to={to}
+                                    onClick={() => {
+                                        setShowMenu(false);
+                                        scrollTop();
+                                    }}
+                                    className={({ isActive }) => `w-full ${to === '/' ? '' :isActive ? "underline" : ""} `}
+                                >
+                                    <p className="block w-full rounded px-2 py-2">
+                                        {text}
+                                    </p>
+                                </NavLink>
+                            ))}
+                        </ul>
+
+
                     </div>
                 </div>
             </div>
