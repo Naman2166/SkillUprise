@@ -49,7 +49,7 @@ const HomeHeader = () => {
       </div>
 
       {/* -------------- Right Side  -------------- */}
-      <div className='md:w-1/2 flex justify-center items-center mt-3 max-sm:mt-0 max-sm:pb-5 md:mt-0'>
+      <div className='md:w-1/2 flex justify-center items-center mt-3 max-sm:mt-0 max-sm:pb-10 md:mt-0'>
         <img
           className='w-[90%] sm:w-4/5 md:w-full xl:w-[70%] h-auto rounded-lg'
           src={assets.HomeHeaderImage}
